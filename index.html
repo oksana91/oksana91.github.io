@@ -1,11 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-      <meta charset="UTF-8">
-      <title>My first project</title>	
+<meta charset="UTF-8">
+<title>Five day weather forecast</title>
+<link rel="stylesheet" href="styles.css">
+<script></script>
 </head>
 <body>
-<h1>Weather Forecast </h1>
+<h1>The five days weather forecast <h1>
+<section >
+ <h2 align="left">Find your location</h2>
+ <input name="loction" type="search" placeholder="Please type your city here">
+ <input id="button_search" type="submit" value="Search">
+</section>
+	<table class="myTable">
+		<tr>
+			<th>Location</th>
+			<th>Current Weather</th>
 
+		</tr>
+		<tr>
+			<td><div id="location"></div></td>
+			<td><div id="CurrentWeather"></div></td>
+
+		</tr>
+
+
+	</table>
+	<table class="ForecastTable">
+		<tr>
+			<th id="day1">Day 1 Forecast</th>
+			<th id="day2">Day 2 Forecast</th>
+			<th id="day3">Day 3 Forecast</th>
+			<th id="day4">Day 4 Forecast</th>
+			<th id="day5">Day 5 Forecast</th>
+
+		</tr>
+		<tr>
+			<td><div id="day1div"></div></td>
+			<td><div id="day2div"></div></td>
+			<td><div id="day3div"></div></td>
+			<td><div id="day4div"></div></td>
+			<td><div id="day5div"></div></td>
+		</tr>
+
+
+	</table>
 </body>
 </html>
